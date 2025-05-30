@@ -519,3 +519,18 @@ export const packagingQuery = `*[_type == "packaging"]{
   "image": image.asset->url
 }
 `;
+
+export const bannersQuery = `*[_type == "banner"] | order(order asc) {
+  "id": _id,
+  "image": image.asset->url,
+  order,
+  "title": title[$lang],
+  "slogan": slogan[$lang],
+  "description": description[$lang],
+  button {
+    "label": label[$lang],
+    "categorySlug": category->slug.current,
+    "subcategorySlug": subcategory->slug.current
+  }
+}
+`;
