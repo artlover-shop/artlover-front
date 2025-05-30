@@ -521,15 +521,16 @@ export const packagingQuery = `*[_type == "packaging"]{
 `;
 
 export const bannersQuery = `*[_type == "banner"] | order(order asc) {
-    _id,
-    image,
-    order,
-    "title": title[$lang],
-    "slogan": slogan[$lang],
-    "description": description[$lang],
-    button {
-      "label": label[$lang],
-      category-> { "id":_id, "categorySlug": slug.current },
-      subcategory-> { "id":_id, "subcategorySlug": slug.current }
-    }
-  }`;
+  "id": _id,
+  "image": image.asset->url,
+  order,
+  "title": title[$lang],
+  "slogan": slogan[$lang],
+  "description": description[$lang],
+  button {
+    "label": label[$lang],
+    "categorySlug": category->slug.current,
+    "subcategorySlug": subcategory->slug.current
+  }
+}
+`;

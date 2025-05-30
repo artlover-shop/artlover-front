@@ -2,11 +2,20 @@ import Image from 'next/image';
 import * as motion from 'motion/react-client';
 import { fadeInAnimation } from '@/shared/utils/animationVariants';
 import HeroSlider from './HeroSlider';
+import { Banner } from '@/types/banner';
+import { Suspense } from 'react';
+import Loader from '@/shared/components/loader/Loader';
 
-export default function Hero() {
+interface HeroProps {
+  banners: Banner[];
+}
+
+export default function Hero({ banners }: HeroProps) {
   return (
     <section className="relative">
-      <HeroSlider />
+      <Suspense fallback={<Loader />}>
+        <HeroSlider banners={banners} />
+      </Suspense>
       <motion.div
         initial="hidden"
         whileInView="visible"

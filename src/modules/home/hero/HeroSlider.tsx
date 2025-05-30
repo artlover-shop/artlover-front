@@ -3,9 +3,16 @@ import { SwiperSlide } from 'swiper/react';
 import { motion } from 'motion/react';
 import SwiperWrapper from '@/shared/components/swiper/SwiperWrapper';
 import { fadeInAnimation } from '@/shared/utils/animationVariants';
-import HeroSlideOne from './HeroSlideOne';
+import HeroSlide from './HeroSlide';
+import { Banner } from '@/types/banner';
 
-export default function HeroSlider() {
+interface HeroSliderProps {
+  banners: Banner[];
+}
+
+export default function HeroSlider({ banners }: HeroSliderProps) {
+  if (!banners) return null;
+
   return (
     <motion.div
       initial="hidden"
@@ -23,18 +30,11 @@ export default function HeroSlider() {
           },
         }}
       >
-        <SwiperSlide>
-          <HeroSlideOne />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSlideOne />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSlideOne />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSlideOne />
-        </SwiperSlide>
+        {banners?.map((banner, idx) => (
+          <SwiperSlide key={idx}>
+            <HeroSlide banner={banner} />
+          </SwiperSlide>
+        ))}
       </SwiperWrapper>
     </motion.div>
   );
