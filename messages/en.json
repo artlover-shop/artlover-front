@@ -1,0 +1,566 @@
+{
+  "metaData": {
+    "title": "Art Lover online shop – supplies for art & creativity.",
+    "description": "Discover the world of creativity with products for artists, illustrators, and designers. Wide selection, great prices, and fast delivery across Ukraine."
+  },
+  "homePage": {
+    "categories": { "title": "Product categories" },
+    "helpChooseGift": {
+      "title": "Help choose gift",
+      "description": "Our site will help you choose a gift for any holiday or event using filters",
+      "button": "Choose gift"
+    },
+    "bestsellers": {
+      "title": "Bestsellers",
+      "description": "Creativity that won hearts"
+    },
+    "newProducts": {
+      "title": "New products",
+      "description": "Fresh ideas for your creativity"
+    },
+    "discountedProducts": {
+      "title": "Discounted products",
+      "description": "Discounts that delight creators"
+    },
+    "about": {
+      "title": "About us",
+      "description": "We are a team passionate about art who created this store for everyone eager to create without limits! Our mission is to inspire artists, illustrators, designers, and all who can't imagine life without creativity.",
+      "cta": "Create. Inspire!",
+      "benefits": {
+        "one": "New customers",
+        "two": "Satisfied customers",
+        "three": "Orders received"
+      }
+    },
+    "reviews": {
+      "title": "Reviews",
+      "description": "Impressions about our store"
+    },
+    "socials": {
+      "title": "Follow us on social media",
+      "followers": "k followers"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "About us",
+      "subtitle": "Our story and values",
+      "description": "We are a team of creative enthusiasts who love making unique string art masterpieces."
+    },
+    "team": {
+      "title": "Our creative team",
+      "teamList": {
+        "one": {
+          "name": "Oleksandra",
+          "role": "Maker, Assistant, Customer Service"
+        },
+        "two": {
+          "name": "Andrian",
+          "role": "Owner, Curator, Maker"
+        },
+        "three": {
+          "name": "Anastasia",
+          "role": "Maker, Marketer"
+        }
+      }
+    },
+    "history": {
+      "title": "History of our team",
+      "descriptionOne": "Our passion for this art form started quite simply. We all loved crafting and wanted to try something new. One day we discovered string art and were amazed by its incredible creativity and possibilities. Inspired, we decided to share it with the world by opening our store.",
+      "descriptionTwo": "In our store, you will find various string art kits to create wonderful artworks. We offer a wide range of designs and sizes so everyone can find something to their taste. Additionally, we accept orders for custom portraits and any other images to create a unique masterpiece just for you.",
+      "descriptionThree": "We take pride in the quality of our products and strive to ensure every customer enjoys working with our kits. We also value an individual approach to each client and are always ready to help bring your ideas to life.",
+      "thankYouOne": "Thank you for choosing our store for your creativity.",
+      "thankYouTwo": "We hope our kits bring you joy and inspiration, and you create something truly amazing!"
+    }
+  },
+  "catalogPage": {
+    "noItems": "There are no products in this category",
+    "sort": "Sort",
+    "sortingOptions": {
+      "rating": "By highest rating",
+      "priceAscending": "By increasing price",
+      "pricDescending": "By decreasing price",
+      "popularity": "By popularity",
+      "discount": "By discount",
+      "availability": "By availability"
+    },
+    "filter": {
+      "discounts": "Current discounts",
+      "newProducts": "New arrivals",
+      "from": "From",
+      "to": "To",
+      "price": "Price",
+      "profession": "Profession",
+      "age": "Age",
+      "button": "Apply filter",
+      "professionsOptions": {
+        "marketer": "Marketer",
+        "teacher": "Teacher",
+        "designer": "Designer",
+        "programmer": "Programmer",
+        "beauty": "Beauty Specialist"
+      }
+    }
+  },
+  "blogPage": {
+    "title": "blog",
+    "description": "Welcome to our blog! Here we share inspiration, creative ideas, useful lifehacks.",
+    "readingTime": " min read"
+  },
+  "contactsPage": {
+    "hero": {
+      "title": "contacts",
+      "subtitle": "Have questions or suggestions?",
+      "description": "Get in touch with us – we will gladly help!",
+      "slogan": "Your questions - our answers"
+    },
+    "contactsInfo": {
+      "phone": "Phone",
+      "lineOne": "Line 1 - online store",
+      "lineTwo": "Line 2 - corporate clients",
+      "email": "Email address",
+      "corporate": "(for corporate clients)",
+      "hotline": "Hotline is available",
+      "workingDays": "Mon-Fri: ",
+      "weekend": "Sat-Sun: "
+    },
+    "callback": {
+      "title": "your message",
+      "description": "Fill out the form – and we will contact you"
+    }
+  },
+  "deliveryPage": {
+    "hero": {
+      "title": "delivery terms",
+      "description": "Delivering inspiration worldwide",
+      "slogan": "fast, convenient, reliable"
+    },
+    "conditions": {
+      "one": "We deliver throughout Ukraine and abroad so you can receive your favorite creative products regardless of your location.",
+      "two": "All orders are processed and shipped within 1-2 business days after payment confirmation.",
+      "three": "Delivery is carried out from Monday to Saturday according to the schedule of the selected delivery service.",
+      "four": "The cost of international delivery depends on the recipient country, package weight, and dimensions. Orders may be subject to customs fees according to your country’s legislation. The international delivery time usually takes 7-21 days but may vary depending on the postal service.",
+      "five": "After shipping, you will receive a tracking number to check the delivery status on the carrier’s website."
+    },
+    "deliveryUkraine": {
+      "title": "delivery in Ukraine",
+      "subtitle": "delivery methods:",
+      "deliveryMethods": {
+        "one": {
+          "title": "ArtLover courier",
+          "description": "Free delivery for orders over 500 UAH. For orders up to 500 UAH, delivery cost is 50 UAH. Delivery takes 1-3 business days."
+        },
+        "two": {
+          "title": "Nova Poshta (pickup)",
+          "description": "Free delivery for orders over 600 UAH. For orders up to 600 UAH, delivery cost is calculated according to the carrier’s rates. Delivery time is 1-3 business days. Valid ID required for pickup."
+        },
+        "three": {
+          "title": "Nova Poshta (parcel locker)",
+          "description": "Free delivery for orders over 300 UAH. For orders under 300 UAH, delivery cost is calculated by the carrier’s rates. Delivery time is 1-3 business days. Pickup via SMS code or Nova Poshta app. Parcels stored in locker up to 4 days."
+        },
+        "four": {
+          "title": "Nova Poshta (courier)",
+          "description": "Free delivery for orders over 500 UAH. For orders up to 500 UAH, delivery cost is calculated by the carrier’s rates. Delivery time depends on region and is 1-3 business days. Courier will contact you to arrange delivery time."
+        },
+        "five": {
+          "title": "Ukrposhta (pickup)",
+          "description": "Free delivery for orders over 500 UAH. For orders up to 500 UAH, delivery cost is calculated by the carrier’s rates. Delivery time depends on region and takes 3-7 business days."
+        },
+        "six": {
+          "title": "Ukrposhta (parcel locker)",
+          "description": "Free delivery for orders over 500 UAH. For orders up to 500 UAH, delivery cost is calculated by the carrier’s rates. Delivery time is 3-7 business days. Use code received by SMS or Ukrposhta app to receive."
+        }
+      }
+    },
+    "deliveryWorldwide": {
+      "title": "international delivery",
+      "subtitle": "delivery methods:",
+      "deliveryMethods": {
+        "one": {
+          "title": "Nova Poshta Global",
+          "description": "Free delivery for orders over 1000 UAH. For orders up to 1000 UAH, delivery cost is calculated by the carrier’s rates. Delivery time is 5–12 business days. Valid ID required for pickup."
+        },
+        "two": {
+          "title": "Ukrposhta",
+          "description": "Free delivery for orders over 800 UAH. For orders up to 800 UAH, delivery cost depends on carrier’s rates. Delivery time is 10–30 business days. Pickup available at post office with valid ID."
+        },
+        "three": {
+          "title": "Meest",
+          "description": "Free delivery for orders over 1200 UAH. For orders up to 1200 UAH, delivery cost determined by carrier’s rates. Delivery time is 7–14 business days. Pickup possible at office or via courier with valid ID."
+        },
+        "four": {
+          "title": "DHL",
+          "description": "Delivery cost calculated individually depending on weight and destination country. Delivery time 2–7 business days. Valid ID required for pickup."
+        },
+        "five": {
+          "title": "FedEx",
+          "description": "Delivery price depends on carrier’s rates and chosen delivery type. Delivery time is 1–5 business days (express) or 7–12 days (standard). Pickup at office or via courier with valid ID."
+        }
+      }
+    }
+  },
+  "productPage": {
+    "home": "Home",
+    "linkCopied": "Link copied",
+    "inStock": "In stock",
+    "outOfStock": "Out of stock",
+    "onOrder": "On order",
+    "reviews": "{count, plural, one {# review} other {# reviews}}",
+    "color": "COLOR",
+    "hrn": " UAH",
+    "button": "Add product to cart",
+    "fullDescription": "Full product description",
+    "delivery": {
+      "title": "Delivery and returns",
+      "description": "We carefully package all orders to ensure the items arrive in proper condition.",
+      "conditions": {
+        "title": "Delivery conditions:",
+        "ukraine": {
+          "title": "Within Ukraine:",
+          "description": "Delivery is carried out via Nova Poshta or Ukrposhta. Estimated delivery time is 1–3 working days after order confirmation."
+        },
+        "worldwide": {
+          "title": "International dlivery:",
+          "description": "Available upon prior agreement. Contact us to clarify the cost and delivery terms."
+        },
+        "shippingCost": {
+          "title": "Shipping cost:",
+          "description": "According to the tariffs of the selected service. Free shipping on orders over 2000 UAH."
+        }
+      },
+      "returns": {
+        "title": "Returns and exchanges",
+        "description": "You can return or exchange an item within 14 days of receiving the order, provided it has not been used and retains its original appearance and packaging.",
+        "notRefundable": {
+          "title": "Non-returnable items:",
+          "partOne": "- Consumable materials with signs of use (paints, glues, varnishes, etc.).",
+          "partTwo": "- Items made or assembled to individual order."
+        }
+      },
+      "howToReturn": {
+        "title": "How to return or exchange an item:",
+        "partOne": "1. Contact us via email or messenger, providing your order number and the reason for the return.",
+        "partTwo": "2. Send the item to the address provided by our manager.",
+        "partThree": "3. After inspecting the item, we will refund the money or send an exchange."
+      }
+    },
+
+    "idealFor": "Ideal for:",
+    "characteristics": {
+      "title": "Product characteristics:",
+      "weight": "Weight:",
+      "gram": " g",
+      "dimensions": "Dimensions:",
+      "sm": " sm",
+      "materials": "Materials:",
+      "manufacture": "Manufacturer:",
+      "includes": "Includes in the set:",
+      "article": "Article:"
+    },
+    "benefits": {
+      "freeDelivery": "Fast delivery",
+      "highQuality": "High quality",
+      "gift": "Great gift"
+    },
+    "reviewsSection": { "title": "Reviews" },
+    "similarSection": { "title": "Similar products" },
+    "reviewedSection": { "title": "viewed products" }
+  },
+  "checkoutPage": {
+    "title": "Checkout",
+    "tabMenu": {
+      "ukraineMob": "within Ukraine",
+      "ukraineDesk": "Delivery within Ukraine",
+      "worldwideMob": "worldwide",
+      "worldwideDesk": "Worldwide delivery"
+    },
+    "form": {
+      "stepOne": { "title": "Step 1", "description": "Personal data" },
+      "stepTwo": { "title": "Step 2", "description": "Payment and delivery" },
+      "stepThree": { "title": "Step 3", "description": "Payment method" },
+      "stepFour": { "title": "Step 4", "description": "Recipient" },
+      "stepFive": { "title": "Step 5", "description": "Add comment" },
+      "payBy": "Pay by",
+      "yourOrder": "Your order",
+      "addPackaging": "Add packaging?",
+      "packaging": "Gift packaging",
+      "postcard": "Postcard",
+      "addButton": "Add",
+      "removeButton": "Remove",
+      "promocode": "Promo code",
+      "applyPromo": "Apply promocode",
+      "removePromo": "Remove promocode",
+      "tips": "Leave a tip for our packers",
+      "total": "Total cost",
+      "hrn": " UAH",
+      "checkout": "Place order",
+      "choosePostOfficeNP": "Choose Nova Poshta branch",
+      "choosePostOfficeUkrPoshta": "Choose Ukrposhta branch",
+      "kyiv": "Kyiv",
+      "dnipro": "Dnipro",
+      "kharkiv": "Kharkiv",
+      "odesa": "Odesa",
+      "lviv": "Lviv",
+      "signPostcard": "Want to sign the postcard?",
+      "emptyCart": "Your cart is empty"
+    }
+  },
+  "confirmationPage": {
+    "title": "Thank you for your order!",
+    "description": "Our manager will contact you shortly. Have a great day!",
+    "button": "See other our products"
+  },
+  "favoritesPage": {
+    "title": "Favorite Products",
+    "description": "Add your favorite products here",
+    "noItems": "You don't have any favorite items yet"
+  },
+  "publicContractPage": {
+    "title": "Public Agreement of the Art Lover Online Store",
+    "subtitleOne": "PUBLIC AGREEMENT (OFFER)",
+    "subtitleTwo": "for ordering, sale and delivery of goods",
+    "description": "This agreement is an official and public offer by the Seller to conclude a purchase and sale agreement for the Goods presented on the website https://www.artlover.com. This agreement is public, meaning that according to Article 633 of the Civil Code of Ukraine, its terms are the same for all buyers regardless of their status (individual, legal entity, or individual entrepreneur), without any preference for one buyer over another. By concluding this Agreement, the buyer fully accepts the terms and procedures for placing an order, paying for the goods, delivering the goods, returning the goods, liability for dishonest orders, and all other conditions of the agreement. The Agreement is considered concluded from the moment the 'Confirm Order' button is clicked on the order placement page in the 'Cart' section and the Buyer receives an electronic order confirmation from the Seller.",
+    "partOne": {
+      "title": "1. Definitions",
+      "list": {
+        "one": "1.1. Public Offer (hereinafter referred to as the 'Offer') – a public offer by the Seller, addressed to an indefinite number of persons, to conclude a distance purchase and sale agreement (hereinafter referred to as the 'Agreement') with the Seller under the terms specified in this Offer.",
+        "two": "1.2. Goods or Services – the subject of the agreement between the parties, selected by the buyer on the online store’s website and placed in the shopping cart, or already purchased by the Buyer from the Seller remotely.",
+        "three": "1.3. Online Store – the Seller’s website located at https://www.artlover.com, created for concluding retail and wholesale purchase and sale agreements based on the Buyer’s acquaintance with the product descriptions offered by the Seller via the Internet.",
+        "four": "1.4. Buyer – a legally capable individual who is at least 18 years old, receives information from the Seller, places an order for the purchase of goods presented on the online store’s website for purposes not related to business activities, or a legal entity or individual entrepreneur.",
+        "five": "The Seller is a sole proprietor, Ilchyshyn Oleksandra Serhiivna, established and operating in accordance with the current legislation of Ukraine and conducting business activities in compliance with registration documents."
+      }
+    },
+    "partTwo": {
+      "title": "2. Subject of the Agreement",
+      "list": {
+        "one": "2.1. The Seller undertakes to transfer the Goods into the ownership of the Buyer, and the Buyer undertakes to pay for and accept the Goods under the terms of this Agreement.",
+        "two": "2.2. The date of concluding the offer agreement (acceptance of the offer) and the moment of full and unconditional acceptance by the customer of the terms of the agreement is considered to be the date the order form is completed on the website and payment is made."
+      }
+    },
+    "partThree": {
+      "title": "3. Order Placement",
+      "list": {
+        "one": "3.1. The Buyer independently places an order on the respective page of the website https://www.artlover.com using the payment system by clicking the 'Checkout', 'Pay', 'Order' button, etc., or by placing an order via email or by calling the support number listed in the Contacts section of the website.",
+        "two": "3.2. The Seller has the right to refuse to fulfill the order if the information provided by the Buyer during order placement is incomplete or raises doubts about its validity.",
+        "three": "3.3. When placing an order on the website, the Buyer agrees to provide the following mandatory information required by the Seller to fulfill the order:",
+        "four": "3.3.1. Buyer's full name and email address;",
+        "five": "3.3.2. address for delivery of the Goods (if delivery to the Buyer’s address is required);",
+        "six": "3.3.3. contact phone number;",
+        "seven": "3.3.4. Identification code for legal entities or individual entrepreneurs.",
+        "eight": "3.4. The name, quantity, article number, and price of the selected Goods are indicated in the Buyer's cart on the website.",
+        "nine": "3.5. If either Party requires additional information, it has the right to request it from the other Party. If the Buyer fails to provide the necessary information, the Seller is not responsible for providing quality service to the Buyer when purchasing goods online.",
+        "ten": "3.6. When placing an order through the Seller’s operator (clause 3.1 of this Offer), the Buyer agrees to provide the information listed in clauses 3.3 – 3.4 of this Offer.",
+        "eleven": "3.7. The Buyer's acceptance of this Offer is carried out by entering the relevant data into the registration form on the website or by placing an Order via the operator. After placing the Order through the operator, the Buyer’s data is entered into the Seller’s database.",
+        "twelve": "3.8. The Buyer is responsible for the accuracy of the information provided when placing the Order.",
+        "thirteen": "3.9. By concluding the Agreement, i.e. by accepting the terms of this offer (proposed terms of purchase), through placing the Order, the Buyer confirms the following: a) the Buyer is fully familiar with and agrees to the terms of this offer; b) the Buyer consents to the collection, processing, and transfer of personal data, and this consent is valid throughout the duration of the Agreement and for an unlimited period after its expiration. Furthermore, by concluding the agreement, the Buyer confirms that they have been informed (without additional notification) about the rights provided by the Law of Ukraine 'On Personal Data Protection', about the purpose of data collection, and that their personal data is transferred to the Seller to fulfill the terms of this Agreement, to enable settlements, and to receive invoices, acts, and other documents. The Buyer also agrees that the Seller has the right to provide access to and transfer their personal data to third parties without any additional notifications for the purpose of fulfilling the Buyer’s order. The scope of the Buyer’s rights as a subject of personal data according to the Law of Ukraine 'On Personal Data Protection' is known and understood by them.",
+        "fourteen": "3.10. The Seller processes the order within up to 3 (three) business days from the date it is placed on the Website."
+      }
+    },
+    "partFour": {
+      "title": "4. Price and Delivery of Goods",
+      "list": {
+        "one": "4.1. Prices for Goods and services are determined by the Seller independently and indicated on the online store’s website. All prices for Goods and services are listed in the national currency of Ukraine – hryvnia.",
+        "two": "4.2. Prices for Goods and services may be changed unilaterally by the Seller depending on market conditions. However, the price of a specific item, which has been fully paid by the Buyer, cannot be changed unilaterally by the Seller.",
+        "three": "4.3. The price of the Goods listed on the online store’s website does not include the cost of delivery to the Buyer. The Buyer pays for delivery according to the current tariffs of the selected delivery service (carrier).",
+        "four": "4.4. The price of the Goods listed on the website does not include delivery to the Buyer's address.",
+        "five": "4.5. The Seller may indicate an approximate delivery cost upon the Buyer’s request via email or when placing an order through the online store operator.",
+        "six": "4.6. The Buyer’s payment obligation for the Goods is considered fulfilled once the Seller receives the funds in their account.",
+        "seven": "4.7. Payments between the Seller and the Buyer for the Goods are made using the methods specified on the online store’s website in the 'Payment and Delivery' section.",
+        "eight": "4.8. Upon receiving the Goods, the Buyer must check in the presence of the delivery service representative (carrier) the conformity of the Goods with the quality and quantity characteristics (product name, quantity, completeness, expiration date).",
+        "nine": "4.9. The Buyer or their representative, upon receiving the Goods, confirms with their signature on the sales receipt and/or order and/or delivery note that they have no claims regarding the quantity, appearance, or completeness of the Goods.",
+        "ten": "4.10. Ownership and the risk of accidental loss or damage to the Goods shall pass to the Buyer or their Representative at the moment the Goods are received by the Buyer at the place of delivery in case of self-pickup from the Seller, or at the time the Seller hands over the Goods to the delivery service (carrier) chosen by the Buyer.",
+        "eleven": "4.11. The final price is the one specified in the virtual shopping cart when placing the order and/or at the time of payment for the Goods through the proposed payment system.",
+        "twelve": "4.12. Settlements between the Parties under this Agreement shall be made in the national currency of Ukraine by one of the following methods: • by transferring the corresponding amount of money by the Buyer to the Seller's current account in accordance with the banking details specified in the invoice for the relevant Order provided/sent to the Buyer by the Seller; • by non-cash payment in the Online Store using the payment system."
+      }
+    },
+    "partFive": {
+      "title": "5. Rights and Obligations of the Parties",
+      "list": {
+        "one": "5.1. The Seller is obliged to:",
+        "two": "5.1.1. Deliver the goods to the Buyer in accordance with the terms of this Agreement and the Buyer's order.",
+        "three": "5.1.2. Not disclose any private information about the Buyer and not provide access to this information to third parties, except as required by law or during the fulfillment of the Buyer's Order.",
+        "four": "5.2. The Seller has the right to:",
+        "five": "5.2.1. Unilaterally change the terms of this Agreement, as well as the prices for Products and Services, by publishing them on the Online Store website. All changes take effect from the moment of their publication.",
+        "six": "5.2.2. Unilaterally suspend the delivery of goods or provision of services under this Agreement in case of violation by the Buyer of its terms.",
+        "seven": "5.2.3. Unilaterally determine the price of the product.",
+        "eight": "5.2.4. Exercise other rights in accordance with the current legislation of Ukraine and this Agreement.",
+        "nine": "5.3. The Buyer is obliged to:",
+        "ten": "5.3.1. Familiarize themselves with the content and terms of this Agreement and the prices offered by the Seller on the Online Store website before concluding the Agreement.",
+        "eleven": "5.3.2. In order for the Seller to fulfill its obligations to the Buyer, the Buyer must provide all necessary data that clearly identify them as the Buyer and are sufficient for the delivery of the ordered Goods.",
+        "twelve": "5.4. The Buyer has the right to:",
+        "thirteen": "5.4.1. Place an order for goods listed on the relevant page of the website;",
+        "fourteen": "5.4.2. Demand that the Seller deliver the product in accordance with the terms of this Agreement;",
+        "fifteen": "5.4.3. Exercise other rights in accordance with the current legislation of Ukraine and this Agreement.",
+        "sixteen": "5.4.4. Enjoy all consumer rights in accordance with the current legislation of Ukraine governing these legal relations.",
+        "seventeen": "5.5. The Buyer is prohibited from:",
+        "eighteen": "5.5.1. Copying and distributing in any way the goods received under this offer;",
+        "nineteen": "5.5.2. Carrying out any activity based on the Seller's product;",
+        "twenty": "5.5.3. Disseminating false or misleading information, defamatory statements damaging the honor, dignity, or business reputation of the Seller, or inciting national, ethnic, gender, racial intolerance, enmity, war, change of governmental system, or any information prohibited by the laws of Ukraine or international law depending on the service delivery territory."
+      }
+    },
+    "partSix": {
+      "title": "6. Product Returns",
+      "list": {
+        "one": "6.1. The procedure and conditions for exchanging and returning goods of proper quality are specified in the 'Returns' section of the Online Store.",
+        "two": "6.2. Exchange and return of goods are carried out in accordance with the Law of Ukraine 'On Consumer Protection' No. 1024-XII dated May 12, 1991 (with amendments).",
+        "three": "6.3. The Buyer has the right to refuse the received goods within 14 (fourteen) days from the date of receipt, provided that the goods retain their marketable condition, consumer properties, original packaging, labels, and the sales receipt or other proof of purchase (electronic document, receipt, invoice, etc.) indicating the payment date.",
+        "four": "6.4. According to Part 1, Article 9 of the Law of Ukraine 'On Consumer Protection' and Resolution No. 172 of the Cabinet of Ministers of Ukraine dated March 19, 1994, cosmetic and perfumery products sold in the Online Store are classified as 'Perfume and Cosmetic Products' that are not subject to return or exchange if of proper quality.",
+        "five": "6.5. If the goods are returned by the Buyer due to a delay in dispatch caused by the Seller, rendering the goods no longer relevant to the Buyer, and/or if the received items do not match the Buyer's order, and/or if significant product defects indicating poor quality are found — the Seller shall bear the cost of courier or delivery services related to such return or exchange. In all other cases, the Buyer bears the delivery costs."
+      }
+    },
+    "partSeven": {
+      "title": "7. Liability",
+      "list": {
+        "one": "7.1. The Seller is not liable for damage caused to the Buyer or third parties due to improper installation, use, or storage of goods purchased from the Seller.",
+        "two": "7.2. The Seller is not liable for improper or delayed fulfillment of Orders and obligations if caused by incorrect or false information provided by the Buyer.",
+        "three": "7.3. The Seller and the Buyer are responsible for fulfilling their obligations in accordance with the current legislation of Ukraine and the provisions of this Agreement.",
+        "four": "7.4. The Seller or Buyer shall be released from liability for full or partial failure to fulfill obligations if such failure is due to force majeure circumstances such as war, military actions, earthquakes, floods, fires, or other natural disasters beyond the control of the Parties after the Agreement has been concluded. The Party unable to fulfill its obligations must immediately notify the other Party."
+      }
+    },
+    "partEight": {
+      "title": "8. Confidentiality and Personal Data Protection",
+      "list": {
+        "one": "8.1. By providing their personal data on the Online Store website during registration or order placement, the Buyer gives the Seller their voluntary and indefinite consent to the processing, use (including transfer), and other actions regarding their personal data as provided by the Law of Ukraine 'On Personal Data Protection'.",
+        "two": "8.2. The Seller undertakes not to disclose information received from the Buyer. Disclosure is not considered a violation if information is provided to contractors or third parties acting under an agreement with the Seller, including for the fulfillment of obligations to the Buyer, or if disclosure is required by the applicable laws of Ukraine.",
+        "three": "8.3. The Buyer is responsible for keeping their personal data up to date. The Seller is not responsible for poor performance or failure to fulfill obligations due to outdated or inaccurate information about the Buyer."
+      }
+    },
+    "partNine": {
+      "title": "9. Other Provisions",
+      "list": {
+        "one": "9.1. This Agreement comes into effect upon payment by the Buyer for the goods on the website.",
+        "two": "9.2. If any provision (part) of this Agreement becomes invalid for any reason, it shall not affect the validity of the remaining provisions.",
+        "three": "9.3. The Buyer guarantees that all terms of this Agreement are clear and fully accepted without exception.",
+        "four": "9.4. In matters not regulated by this Agreement, the Parties shall be governed by the applicable laws of Ukraine.",
+        "five": "9.5. According to Resolution No. 172 of the Cabinet of Ministers of Ukraine dated March 19, 1994 'On the Implementation of Certain Provisions of the Law of Ukraine On Consumer Protection', the goods sold on the Site fall under the list of goods of proper quality that are not subject to return or exchange, as specified in Appendix No. 3 of the Resolution."
+      }
+    },
+    "sellerDetails": {
+      "title": "SELLER CONTACT DETAILS",
+      "details": {
+        "name": "Private Entrepreneur Ilchyshyn Oleksandra Serhiivna",
+        "phone": "Tel.: +380 (96) 393 19 88",
+        "email": "e-mail: artlover.ua@gmail.com"
+      }
+    }
+  },
+  "header": {
+    "burger": {
+      "title": "ANY QUESTIONS LEFT?",
+      "description": "Check our contacts and get in touch! Our manager can provide consultation on all products and questions you may have."
+    },
+    "catalogMenu": {
+      "title": "Catalog",
+      "gifts": "Gifts",
+      "women": "For her",
+      "men": "For him",
+      "giftsDescription": "Give inspiration",
+      "discounts": "Discounts",
+      "discountsDescription": "Great deals",
+      "newProducts": "New arrivals",
+      "newProductsDescription": "New in our store"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "freeDelivery": "Add items for free delivery worth",
+    "hrn": " UAH",
+    "quantity": "Number of items in cart",
+    "total": "Total cost",
+    "button": "Checkout"
+  },
+  "subscribeNews": {
+    "title": "Follow our news!",
+    "button": " Send"
+  },
+  "footer": {
+    "description": "Create a masterpiece today!",
+    "free": "Free",
+    "catalog": "Catalog",
+    "button": "Cart",
+    "about": "About the company",
+    "socials": "Our social networks",
+    "navMenu": {
+      "about": "About us",
+      "blog": "Blog",
+      "contacts": "Contacts",
+      "payment": "Payment and delivery",
+      "publicContract": "Public contract"
+    }
+  },
+  "popUps": {
+    "addedToCart": {
+      "title": "Product added to cart!",
+      "description": "Go to cart to see all selected products",
+      "continueShopping": "Continue shopping",
+      "checkout": "Checkout"
+    },
+    "notification": {
+      "success": {
+        "title": "Thank you for your message!",
+        "description": "Our manager will contact you shortly. Have a nice day!"
+      },
+      "error": {
+        "title": "Unfortunately, something went wrong",
+        "description": "Please try submitting the form again or call us."
+      },
+      "unavailable": {
+        "title": "Please review your cart.",
+        "description": "Unfortunately, some of the items you selected are unavailable."
+      }
+    },
+    "subscribeNotification": {
+      "success": {
+        "title": "Thank you for subscribing!",
+        "description": "Your email has been successfully sent. Have a great day!"
+      },
+      "error": {
+        "title": "Unfortunately, something went wrong",
+        "description": "Please try submitting the form again or call us."
+      }
+    }
+  },
+  "forms": {
+    "namePlaceholder": "First name",
+    "surnamePlaceholder": "Last name",
+    "email": "Email",
+    "phonePlaceholder": "Phone number",
+    "shareOpinion": "Share your opinion",
+    "postOffice": "Post office",
+    "courier": "Courier delivery",
+    "poshtomat": "Parcel locker",
+    "cityPlaceholder": "City name",
+    "addressPlaceholder": "Address",
+    "postOfficeNumberPlaceholder": "Post office number",
+    "poshtomatNumberPlaceholder": "Parcel locker number",
+    "payByCard": "Pay by card on the site",
+    "cashOnDelivery": "Cash on delivery",
+    "iAmRecipient": "I am the recipient",
+    "anotherPersonRecipient": "Recipient is another person",
+    "commentPlaceholder": "Add a comment if needed",
+    "postCardPlaceholder": "Write here if you want to sign",
+    "promocodePlaceholder": "Enter your promo code",
+    "tipsPlaceholder": "Enter amount",
+    "errors": {
+      "required": "This field is required",
+      "wrongPhone": "Please enter a valid phone number",
+      "wrongEmail": "Enter a valid email",
+      "nameMinMaxSymbols": "Must be between 2 and 30 characters",
+      "nameAllowedSymbols": "Allowed letters, hyphen, apostrophe, quotes",
+      "startsWithZero": "Phone number must start with zero",
+      "max200Symbols": "Must contain no more than 200 characters",
+      "sixCharZero": "After +38 the next digit must be 0",
+      "chooseDelivery": "Choose a delivery service",
+      "onlyNumbersAllowed": "Only numbers allowed",
+      "positiveNumbers": "Tips cannot be less than 0",
+      "noPromocode": "Promocode not found"
+    },
+    "submitButton": "Send",
+    "sending": "Sending..."
+  },
+  "productCard": {
+    "hrn": " UAH",
+    "button": "Details"
+  }
+}
