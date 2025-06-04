@@ -19,8 +19,8 @@ export default function CategorySlideOneMob({
       initial="hidden"
       whileInView="visible"
       exit="exit"
-      viewport={{ once: true, amount: 0.4 }}
-      variants={listVariants({ staggerChildren: 0.4, delayChildren: 0.8 })}
+      viewport={{ once: true, amount: 0.2 }}
+      variants={listVariants({ staggerChildren: 0.3, delayChildren: 0.3 })}
       className="flex md:hidden flex-col gap-y-4"
     >
       <motion.li
