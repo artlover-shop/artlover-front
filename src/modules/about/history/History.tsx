@@ -31,7 +31,6 @@ export default function History() {
             variants={fadeInAnimation({
               scale: 0.9,
               delay: 0.4,
-              duration: 1.5,
             })}
             className="relative w-full md:w-[calc(45%-16px)] lg:w-[calc(45%-36px)] xl:w-[calc(46.3%-57px)] h-[212px] sm:h-[280px] md:h-[212px] xl:h-[320px] rounded-[8px] xl:rounded-[16px] overflow-hidden"
           >
@@ -63,7 +62,6 @@ export default function History() {
             variants={fadeInAnimation({
               scale: 0.9,
               delay: 0.4,
-              duration: 1.5,
             })}
             className="relative w-full md:w-[calc(45%-16px)] lg:w-[calc(45%-36px)] xl:w-[calc(46.3%-57px)] h-[212px] sm:h-[280px] md:h-[212px] xl:h-[320px] rounded-[8px] xl:rounded-[16px] overflow-hidden"
           >
@@ -95,7 +93,6 @@ export default function History() {
             variants={fadeInAnimation({
               scale: 0.9,
               delay: 0.4,
-              duration: 1.5,
             })}
             className="relative w-full md:w-[calc(45%-16px)] lg:w-[calc(45%-36px)] xl:w-[calc(46.3%-57px)] h-[212px] sm:h-[280px] md:h-[212px] xl:h-[320px] rounded-[8px] xl:rounded-[16px] overflow-hidden"
           >

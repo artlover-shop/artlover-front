@@ -3,7 +3,7 @@ export const fadeInAnimation = ({
   y = 0,
   scale = 1,
   delay = 0,
-  duration = 0.7,
+  duration = 0.5,
   opacity = 0,
 }) => ({
   hidden: {
@@ -24,7 +24,7 @@ export const fadeInAnimation = ({
 });
 
 export const listVariants = ({
-  staggerChildren = 0.5,
+  staggerChildren = 0.3,
   delayChildren = 0,
 } = {}) => ({
   hidden: { opacity: 0 },
@@ -47,7 +47,7 @@ export const headerVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, ease: 'easeOut' },
+    transition: { duration: 0.5, ease: 'easeOut' },
   },
   exit: {
     opacity: 0,
@@ -77,7 +77,7 @@ export const listItemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1, ease: 'easeOut' },
+    transition: { duration: 0.5, ease: 'easeOut' },
   },
   exit: {
     opacity: 0,
@@ -88,11 +88,11 @@ export const listItemVariants = {
 
 export const cartModalVariants = {
   hidden: { x: '100%', opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.8, ease: 'easeOut' } },
+  visible: { x: 0, opacity: 1, transition: { duration: 0.7, ease: 'easeOut' } },
   exit: {
     x: 0,
     opacity: 0,
-    transition: { duration: 0.5, ease: 'easeIn' },
+    transition: { duration: 0.4, ease: 'easeIn' },
   },
 };
 
@@ -101,7 +101,7 @@ export const cartItemVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: 'easeOut' },
+    transition: { duration: 0.3, ease: 'easeOut' },
   },
   exit: {
     opacity: 0,
@@ -112,7 +112,7 @@ export const cartItemVariants = {
 
 export const burgerMenuVariants = {
   hidden: { x: '100%', opacity: 0 },
-  visible: { x: 0, opacity: 1, transition: { duration: 0.8, ease: 'easeOut' } },
+  visible: { x: 0, opacity: 1, transition: { duration: 0.7, ease: 'easeOut' } },
   exit: {
     x: 0,
     opacity: 0,

@@ -53,10 +53,11 @@ export default function Hero() {
           </div>
           <motion.p
             style={{ wordSpacing: '8px' }}
+            initial="hidden"
             whileInView="visible"
             exit="exit"
             viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInAnimation({ x: -30, delay: 1.6 })}
+            variants={fadeInAnimation({ x: -30, delay: 1 })}
             className="lg:mx-auto font-denistina text-[16px] md:text-[24px] xl:text-[32px] font-normal leading-[120%] xl:text-center"
           >
             {t('slogan')}

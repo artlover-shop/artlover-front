@@ -39,7 +39,7 @@ export default function HelpChooseGift() {
             whileInView="visible"
             exit="exit"
             viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInAnimation({ scale: 0.9, delay: 1.6 })}
+            variants={fadeInAnimation({ scale: 0.9, delay: 1 })}
             className="hidden xs:block absolute top-0 left-0"
           >
             <Image
@@ -55,7 +55,7 @@ export default function HelpChooseGift() {
             whileInView="visible"
             exit="exit"
             viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInAnimation({ y: -30, delay: 1.2, duration: 1.5 })}
+            variants={fadeInAnimation({ y: -30, delay: 0.8 })}
             className="xs:hidden mb-6 w-full"
           >
             <Image
@@ -71,7 +71,7 @@ export default function HelpChooseGift() {
             whileInView="visible"
             exit="exit"
             viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInAnimation({ y: -30, delay: 1.6 })}
+            variants={fadeInAnimation({ y: -30, delay: 1 })}
             className="hidden xs:block mb-11 w-full"
           >
             <Image
@@ -88,7 +88,7 @@ export default function HelpChooseGift() {
               whileInView="visible"
               exit="exit"
               viewport={{ once: true, amount: 0.2 }}
-              variants={fadeInAnimation({ y: 30, delay: 0.4 })}
+              variants={fadeInAnimation({ y: 30, delay: 0.2 })}
               className="max-w-[286px] md:max-w-[306px] xl:max-w-[456px] mb-3 text-[18px] sm:text-[32px] xl:text-[50px] font-extrabold leading-[122%] uppercase text-white"
             >
               {t('title')}
@@ -98,7 +98,7 @@ export default function HelpChooseGift() {
               whileInView="visible"
               exit="exit"
               viewport={{ once: true, amount: 0.2 }}
-              variants={fadeInAnimation({ y: 30, delay: 0.8 })}
+              variants={fadeInAnimation({ y: 30, delay: 0.4 })}
               className="max-w-[206px] md:max-w-[306px] xl:max-w-[396px] mb-5 xl:mb-[52px] text-[12px] xl:text-[16px] font-light leading-[125%] text-justify text-white"
             >
               {t('description')}
@@ -109,7 +109,7 @@ export default function HelpChooseGift() {
                 whileInView="visible"
                 exit="exit"
                 viewport={{ once: true, amount: 0.2 }}
-                variants={fadeInAnimation({ y: 30, delay: 1.2 })}
+                variants={fadeInAnimation({ y: 30, delay: 0.9 })}
                 className="cursor-pointer flex items-center justify-center px-4 py-2 w-[116px] sm:w-full max-w-[236px] md:max-w-[306px] xl:max-w-[456px] h-8 sm:h-12 xl:h-[58px] rounded-full 
             text-[8px] sm:text-[12px] xl:text-[14px] font-normal leading-[120%] shadow-social bg-linear-[121deg,white_22.48%,#FF692D_337.32%] 
              sm:bg-linear-[-186deg,#ffffff_11.19%,#ff692d_199.95%] xl:hover:brightness-105 focus-visible:brightness-105 active:scale-95 transition duration-300 ease-in-out"
@@ -125,8 +125,7 @@ export default function HelpChooseGift() {
             viewport={{ once: true, amount: 0.2 }}
             variants={fadeInAnimation({
               y: 30,
-              delay: 1.6,
-              duration: 1.5,
+              delay: 1,
             })}
             className="xs:hidden absolute z-10 bottom-0 right-0 w-full max-w-[380px]"
           >

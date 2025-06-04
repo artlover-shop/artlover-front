@@ -31,7 +31,7 @@ export default function About() {
                 whileInView="visible"
                 exit="exit"
                 viewport={{ once: true, amount: 0.2 }}
-                variants={fadeInAnimation({ y: 30, delay: 0.4 })}
+                variants={fadeInAnimation({ y: 30, delay: 0.2 })}
                 className="text-[14px] xl:text-[20px] font-light leading-[120%] text-justify"
               >
                 {t('description')}
@@ -42,7 +42,7 @@ export default function About() {
               whileInView="visible"
               exit="exit"
               viewport={{ once: true, amount: 0.2 }}
-              variants={fadeInAnimation({ x: -30, delay: 0.8 })}
+              variants={fadeInAnimation({ x: -30, delay: 0.4 })}
               className="mb-5 font-denistina text-[14px] xl:text-[36px] font-normal leading-[120%] text-orange text-right"
             >
               {t('cta')}
