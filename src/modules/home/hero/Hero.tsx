@@ -21,7 +21,7 @@ export default function Hero({ banners }: HeroProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+        variants={fadeInAnimation({ delay: 0.7, scale: 0.9 })}
         className="hidden xl:block z-10 absolute top-[-99px] right-[calc(50%-135px)] h-[99px] overflow-hidden"
       >
         <Image
@@ -36,7 +36,7 @@ export default function Hero({ banners }: HeroProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.6, duration: 2 })}
+        variants={fadeInAnimation({ delay: 1 })}
         className="hidden xl:block absolute -z-10 xl:bottom-[15px] right-[0px]"
       >
         <Image
@@ -52,7 +52,7 @@ export default function Hero({ banners }: HeroProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.6, duration: 2 })}
+        variants={fadeInAnimation({ delay: 1 })}
         className="hidden xl:block absolute -z-10 xl:bottom-[-78px] left-0"
       >
         <Image

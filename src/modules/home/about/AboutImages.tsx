@@ -10,7 +10,7 @@ export default function AboutImages() {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+        variants={fadeInAnimation({ delay: 0.8, scale: 0.9 })}
         className="xl:hidden absolute -z-10 top-[90px] left-[-56px]"
       >
         <Image
@@ -25,7 +25,7 @@ export default function AboutImages() {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+        variants={fadeInAnimation({ delay: 0.8, scale: 0.9 })}
         className="xl:hidden absolute -z-10 top-[-60px] right-[-35px]"
       >
         <Image
@@ -40,7 +40,7 @@ export default function AboutImages() {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+        variants={fadeInAnimation({ delay: 0.8, scale: 0.9 })}
         className="hidden xl:block absolute -z-10 top-[78px] left-[calc(50%-857px)]"
       >
         <Image
@@ -55,7 +55,7 @@ export default function AboutImages() {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+        variants={fadeInAnimation({ delay: 0.8, scale: 0.9 })}
         className="hidden xl:block absolute -z-10 top-[-85px] right-[calc(50%-730px)]"
       >
         <Image

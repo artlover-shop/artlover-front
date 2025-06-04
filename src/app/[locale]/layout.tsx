@@ -58,7 +58,7 @@ export default async function RootLayout({
               whileInView="visible"
               exit="exit"
               viewport={{ once: true, amount: 0.2 }}
-              variants={fadeInAnimation({ delay: 1.2, scale: 0.9 })}
+              variants={fadeInAnimation({ delay: 0.8, scale: 0.9 })}
               className="xl:hidden -z-10 absolute top-0 right-[calc(50%-100px)]"
             >
               <Image

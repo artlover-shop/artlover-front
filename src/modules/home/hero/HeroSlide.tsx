@@ -20,9 +20,8 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
         variants={fadeInAnimation({
-          scale: 0.9,
-          delay: 1.2,
-          duration: 1.5,
+          scale: 0.95,
+          delay: 0.8,
         })}
         className="hidden md:block mb-12 md:ml-[calc(50%-139px)] lg:ml-[calc(50%-247px)] md:mt-[117px]"
       >
@@ -34,14 +33,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
           height="145"
           className="md:w-[258px] lg:w-[395px] xl:w-[495px] h-auto"
         />
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          exit="exit"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={fadeInAnimation({ x: 30, delay: 0.4 })}
-          className="md:absolute md:bottom-[38px] lg:bottom-[88px] xl:bottom-[108px] md:left-[220px] lg:left-[320px] xl:left-[400px] max-w-[480px] xl:max-w-[322px] mx-auto px-8 md:px-0"
-        >
+        <div className="md:absolute md:bottom-[38px] lg:bottom-[88px] xl:bottom-[108px] md:left-[220px] lg:left-[320px] xl:left-[400px] max-w-[480px] xl:max-w-[322px] mx-auto px-8 md:px-0">
           <p className="max-w-[160px] md:max-w-[250px] lg:max-w-[320px] mb-3 md:mb-[17px] font-denistina text-[16px] md:text-[24px] lg:text-[32px] font-normal leading-[120%]">
             {slogan}
           </p>
@@ -60,7 +52,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
               {button?.label}
             </MainButton>
           </Link>
-        </motion.div>
+        </div>
       </motion.div>
 
       <motion.div
@@ -86,7 +78,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ x: 30, delay: 0.4 })}
+        variants={fadeInAnimation({ x: 30, delay: 0.2 })}
         className="md:hidden max-w-[480px] mx-auto px-8"
       >
         <p className="max-w-[160px] md:max-w-[250px] lg:max-w-[320px] mb-3 md:mb-[17px] font-denistina text-[16px] md:text-[24px] lg:text-[32px] font-normal leading-[120%]">
@@ -136,7 +128,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
             whileInView="visible"
             exit="exit"
             viewport={{ once: true, amount: 0.2 }}
-            variants={fadeInAnimation({ scale: 0.9 })}
+            variants={fadeInAnimation({ scale: 0.95 })}
             className="hidden md:block w-full h-full mb-15 md:mb-0 rounded-b-[24px] md:rounded-l-none md:rounded-r-[44px] overflow-hidden"
           >
             <div className="absolute inset-0 z-20 hero-gradient"> </div>
@@ -156,7 +148,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ y: 30, delay: 1.6 })}
+        variants={fadeInAnimation({ y: 30, delay: 0.4 })}
         className="mb-6 lg:mb-0 md:ml-[calc(50%-202px)] max-w-[240px] md:max-w-[396px] mx-auto text-[16px] md:text-[32px] font-medium leading-[120%] uppercase text-center"
       >
         {title}
@@ -166,7 +158,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ y: 30, delay: 1.6 })}
+        variants={fadeInAnimation({ y: 30, delay: 0.8 })}
         className="lg:hidden w-full"
       >
         <Link
@@ -187,7 +179,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.6, duration: 2 })}
+        variants={fadeInAnimation({ delay: 1.2, scale: 0.95 })}
         className="md:hidden absolute -z-10 bottom-[-22px] right-[-76px]"
       >
         <Image
@@ -203,7 +195,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.6, duration: 2 })}
+        variants={fadeInAnimation({ delay: 1.2, scale: 0.95 })}
         className="md:hidden absolute -z-10 bottom-[-31px] left-[-97px]"
       >
         <Image
@@ -219,7 +211,7 @@ export default function HeroSlide({ banner }: HeroSlideProps) {
         whileInView="visible"
         exit="exit"
         viewport={{ once: true, amount: 0.2 }}
-        variants={fadeInAnimation({ delay: 1.6, duration: 2 })}
+        variants={fadeInAnimation({ delay: 1.2, scale: 0.95 })}
         className="hidden md:block absolute -z-10 md:bottom-[-88px] lg:bottom-[-108px] right-[-110px] md:w-[388px] lg:w-[468px]"
       >
         <Image
