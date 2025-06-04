@@ -31,8 +31,8 @@ export default function TeamList() {
       initial="hidden"
       whileInView="visible"
       exit="exit"
-      viewport={{ once: true, amount: 0.4 }}
-      variants={listVariants({ staggerChildren: 0.4, delayChildren: 0.8 })}
+      viewport={{ once: true, amount: 0.2 }}
+      variants={listVariants({ staggerChildren: 0.3, delayChildren: 0.4 })}
       className="flex flex-col md:flex-row gap-6 md:gap-4 xl:gap-5"
     >
       {teamList.slice(0, 3).map((teammate, idx) => (

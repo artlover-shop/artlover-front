@@ -55,7 +55,7 @@ export default function SocialsList() {
       whileInView="visible"
       exit="exit"
       viewport={{ once: true, amount: 0.4 }}
-      variants={listVariants({ staggerChildren: 0.4, delayChildren: 0.8 })}
+      variants={listVariants({ staggerChildren: 0.3, delayChildren: 0.4 })}
       className="flex flex-wrap md:flex-nowrap gap-4 xl:gap-5"
     >
       {socialList.map((social, idx) => (

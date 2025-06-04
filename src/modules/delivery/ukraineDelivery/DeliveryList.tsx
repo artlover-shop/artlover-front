@@ -59,7 +59,7 @@ export default function DeliveryList() {
       initial="hidden"
       whileInView="visible"
       exit="exit"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.1 }}
       variants={listVariants({ staggerChildren: 0.3, delayChildren: 0.4 })}
       className="flex flex-col md:flex-row md:flex-wrap gap-y-6 md:gap-5"
     >
